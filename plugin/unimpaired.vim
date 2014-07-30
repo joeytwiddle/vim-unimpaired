@@ -36,6 +36,11 @@ call s:MapNextFamily('l','l')
 call s:MapNextFamily('q','c')
 call s:MapNextFamily('t','t')
 
+nmap <silent> [w <Ctrl-W>h
+nmap <silent> ]w <Ctrl-W>l
+nmap <silent> [W <Ctrl-W>k
+nmap <silent> ]W <Ctrl-W>j
+
 function! s:entries(path)
   let path = substitute(a:path,'[\\/]$','','')
   let files = split(glob(path."/.*"),"\n")

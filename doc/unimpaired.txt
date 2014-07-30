@@ -56,6 +56,22 @@ is "args" and for the "q" commands is "quickfix".
 ]n                      Go to the next SCM conflict marker or diff/patch hunk.
                         Try d]n inside a conflict.
 
+                                                *[w*
+[w                      Move the cursor to the window to the left of the
+                        current window.  Like |Ctrl-W_h|
+
+                                                *]w*
+]w                      Move the cursor to the window to the right of the
+                        current window.  Like |Ctrl-W_l|
+
+                                                *[W*
+[W                      Move the cursor to the window above the current
+                        window.  Like |Ctrl-W_k|
+
+                                                *]W*
+]W                      Move the cursor to the window below the current
+                        window.  Like |Ctrl-W_j|
+
 LINE OPERATIONS                                 *unimpaired-lines*
 
                                                 *[<Space>*
